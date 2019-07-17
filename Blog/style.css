@@ -1,0 +1,29 @@
+h1{
+    color: pink;
+}
+
+body {
+    background: rgb(94, 5, 94);
+}
+
+main {
+    width: 60%;
+    margin: 5% auto;
+}
+
+article {
+    margin: 1% auto;
+    border: solid gray;
+    background: rgb(7, 170, 170);
+}
+article > h3 {
+    font-size: 1em;
+}
+
+article:hover {
+    background: gray;
+}
+
+article:hover > h3 {
+    color: blue;
+}

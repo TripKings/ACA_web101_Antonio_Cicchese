@@ -1,0 +1,26 @@
+body {
+background-color: #aaa;
+font: 1em sans-serif;;
+font-size: 1pc;
+}
+
+#container{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+article {
+    border-style: dotted;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: blue;
+}
+
+h2 {
+    font-size: 3pc;
+    color: blue;
+}
+
