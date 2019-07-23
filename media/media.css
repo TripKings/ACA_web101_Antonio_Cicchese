@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    body {
+        background-color: red;
+    }
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    body {
+        background-color:green;
+    }
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    body {
+        background-color: purple;
+    }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}

@@ -99,3 +99,43 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 360px) {
+  .has-border {
+    color: hotpink;
+    border: 6px solid purple;
+  }
+  
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+  .has-border {
+    color: green;
+    border: 5px solid hotpink;
+  }
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+  .has-border {
+    color: purple;
+    border: 2px solid greenyellow;
+  }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+  .has-border {
+    color: black
+    border: 2px solid orangered;
+  }
+
+}
