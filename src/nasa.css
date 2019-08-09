@@ -3,29 +3,52 @@ body {
     width: 850px;
 }
 
-main {
+header {
     height: 450px;
     background-image: url(./img/nasa-BG.jpg);
     color: white;
 }
 
-section{
+header h1 {
+    text-align: center;
+    padding: 170px;
+    font-size: 100px;
+}
+
+main {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    height: 324px;
+}
+
+.social-media {
+    width: 270px;
+    padding: 20px; 
+}
+
+.office-info {
+    width: 270px;
+    padding: 20px;
+}
+
+.contact {
+    width: 270px;
+    padding: 20px;
+}
+
+/* section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 375px;
     margin: 0 auto;
     background-color: gray;
-}
+} */
 
-article {
+/* main {
     width: 270px;
     height: 374px;
     background-color: gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-
-
-}
+} */
 

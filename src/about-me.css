@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "article"
+    "footer";
+    
+}
+
+header {
+    background-color: yellow;
+
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+}
+
+header b {
+    color: red;
+    text-align: center;
+    display: block;
+
+}
+
+.main {
+
+    background-color: orange;
+}
+
+.article {
+    background-color: blue;
+
+}
+
+.footer {
+    background-color: red;
+}
