@@ -173,6 +173,29 @@ textarea{
     background: #CF7A7A
 }
 
+.ifram {
+  display: flex;
+  justify-content: center;
+  background-image: url(../src/img/space-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px 1000px;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-image: url(../src/img/snow-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 10px;
+}
 
 /* Extra Small and up (Portrait Phones) */
 

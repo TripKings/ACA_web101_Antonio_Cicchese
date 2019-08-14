@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../animate.css">
   <link rel="stylesheet" href="./style.css">
   <title>My Portfolio</title>
 </head>
@@ -11,21 +12,24 @@
     <header>
         <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
         <nav>
-            <a href="#" class="has-border">Contact Me</a>
-            <a href="#" class="has-border">About Me</a>
-            <a href="#" class="has-border">My Blog</a>
-            <a href="../src/resume.html" class="has-border">Resume</a>
+            <a href="#" class="has-border animated rubberBand delay-2s">Contact Me</a>
+            <a href="#" class="has-border animated rubberBand delay-3s">About Me</a>
+            <a href="#" class="has-border animated rubberBand delay-2s">My Blog</a>
+            <a href="../src/resume.html" class="has-border animated rubberBand delay-3s">Resume</a>
         </nav>
     </header>
     <main>
-          <img src="./myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
-      <h1>Antonio Cicchese</h1>
-      <h2>Student of Web Development</h2>
+        <h1 class="animated tada bounceOut slower">Scroll Down To See More</h1>
+          <img class="animated jello" src="./myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
+      <h1 class="animated tada">Antonio Cicchese</h1>
+      <h2 class="animated flip">Student of Web Development</h2>
       <button id="portfolio">Portfolio</button>
           <link rel="stylesheet" href="../src/portfolio.html">
         <a class="small-text" href="https://austincodingacademy.com/">© Austin Coding Academy</a>
     </main>
-
+    <br>
+    <br>
+    <br>
     <div class="ifram">
       <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/xJOwz0yZ2WA" 
@@ -35,13 +39,16 @@
         allowfullscreen>
       </iframe>
     </div>
+    <br>
 
     <div class="video">
-      <video controls width="300">
+      <video class="animated tada" controls width="300">
         <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
         <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
       </video>
     </div>
+    <br>
+    <br>
 
     <div class="form">  
       <form action="" method="POST" class="STYLE-NAME">
@@ -68,6 +75,7 @@
           <span>&nbsp;</span> 
           <input type="button" class="button" value="Send" /> 
         </label>
+        <br>
         <label>
         <span>&nbsp;</span> 
         <input type="button" class="button" value="Reset" /> 
