@@ -1,11 +1,11 @@
 body {
     font-family: 'Anton', sans-serif;
 }
+
 header {
     height: 200px;
     background-color:red;
     width: 100%;
-    grid-area: "header"
     /* background-color: transparent; */
 }
 
@@ -51,83 +51,23 @@ a:link, a:visited .read  {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 main {
-    height: 300px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-    grid-area: "main"
-    
-}
-
-section {
-    height: 400px;
-    background-color: orange;
+    background-color: orangered;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100%;
-    grid-area: "section"
-
+    grid-template-rows: 100%
 }
 
-.section {
+main h1 {
+    color: purple;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
 }
 
-article {
-    padding: 10px;
-}
-
-article h2 {
-    text-align: center;
-    font-size: 40px;
-}
-
-.title1 {
-    color: orangered;
-}
-
-.title2 {
-    color:green;
-}
-
-.title3 {
-    color: darkblue;
-}
-
-@media (max-width: 576px) {
-    
-    body {
-        display: grid-area: 
-        "header"
-        "main"
-        "section"; 
-    }
-    
-    .nav h1 {
-        text-align: center;
-        padding: 10px;
-        font-size: 20px;
-    }
-
-    main {
-        font-size: 30px;
-    }
-    
-    ul li a {
-        font-size: 20px;
-    }
-
-    section {
-        height: 100%
-    }
-
+main p {
+display: flex;
+flex-direction: column;
 }

@@ -13,7 +13,13 @@ header {
 .nav h1 {
     text-align: center;
     padding: 10px;
-    font-size: 40px;
+    font-size: 80px;
+}
+
+ul li a {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
 }
 
 ul  {
@@ -51,7 +57,8 @@ main p {
     align-items: center;
     font-size: 18px;
     padding: 10px;
-    color: rgb(30, 245, 11);
+    color: rgb(17, 240, 36);
+    font-family: 'Anton', sans-serif;
 }
 
 .ifram {
@@ -59,6 +66,12 @@ main p {
     justify-content: flex-end;
     align-content: flex-end;
     align-self: flex-end;
-    
-    
+}
+
+@media (max-width: 576px) {
+
+    .nav h1 {
+        font-size: 40px;
+    }
+
 }
