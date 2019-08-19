@@ -1,0 +1,64 @@
+header {
+    height: 200px;
+    background-color:red;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.nav h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 60%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    background-image: url(../img/poker-background-about-me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(30, 245, 11);
+}
+
+.ifram {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    
+    
+}

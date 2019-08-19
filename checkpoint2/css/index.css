@@ -1,0 +1,69 @@
+body {
+
+}
+
+header {
+    height: 200px;
+    background-color:red;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+}
+
+.nav h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 60%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main {
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    
+}
+
+section {
+    height: 300px;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%
+
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+article {
+    padding: 10px;
+}
+
+article h2 {
+    text-align: center;
+}
