@@ -121,6 +121,11 @@ article h2 {
     main {
         font-size: 30px;
     }
+
+    ul {
+        display: flex; 
+        align-items: flex-end;
+    }
     
     ul li a {
         font-size: 20px;
