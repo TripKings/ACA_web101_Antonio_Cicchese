@@ -4,9 +4,8 @@ body {
 
 header {
     height: 200px;
-    background-color:red;
+    background-color: rgb(255,0,0,0.5);
     width: 100%;
-    /* background-color: transparent; */
 }
 
 .title {
@@ -55,19 +54,78 @@ a:link, a:visited .read  {
 
 main {
     background-color: orangered;
-    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100%
+    grid-template-rows: 100%;
 }
 
 main h1 {
     color: purple;
     justify-content: center;
     display: flex;
+    
 }
 
 main p {
 display: flex;
 flex-direction: column;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .nav h1 {
+        font-size: 30px;
+    }
+
+    main {
+        font-size: 30px;
+    }
+
+    ul {
+        
+        padding-top: 60px;
+        padding-right: 80px;
+        display: flex; 
+        align-items: flex-end;
+    }
+    
+    ul li a {
+        font-size: 20px;
+    }
+
+    section {
+        height: 100%
+    }
+
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5% 95%;
+        grid-template-areas:
+        "title title"
+        "p par";
+    }
+
+    main h1 {
+        grid-area: title;
+    }
+
+    ul li a {
+        float: left;
+    }
+
+    p {
+        grid-area: p;
+        padding: 2px;
+        }
+        
+        .par {
+        grid-area: par;
+        padding: 2px;
+        }
+
+    
 }
