@@ -1,0 +1,45 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 53px;
+}
+div {
+    text-align: center;
+    margin: 0px auto;
+    text-align: center;
+    margin: auto;
+}
+body {
+    background-color: purple;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width:80px;
+    height:80px;
+    background: #FFFFFF;
+    font-size: 46pt;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+
+}
+
+fieldset {
+    text-align: center;
+    margin: auto;
+}
+
+.cell:hover {
+    background: fuchsia;
+    text-align: center;
+}
