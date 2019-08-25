@@ -482,6 +482,7 @@ input:active {
 .to-do .addBtn:hover {
   background-color: #bbb;
 }
+
 .container{
   display: grid;
   grid-template-areas: 
@@ -502,6 +503,7 @@ input:active {
       "to-do clock" 
       "calculator calculator";
   }
+}
 
   @media only screen and (min-width: 990px) { 
     .container {
@@ -513,3 +515,4 @@ input:active {
         "clock clock clock clock"
         "to-do to-do calculator calculator";
     }
+  }

@@ -6,36 +6,30 @@
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="./ticTacToe.js"></script>
 </head>
+
+
 <body>
-
-<h1>Tic Tac Toe</h1>
-
-
-
-<fieldset>
-<p>Please Reload The Page To Choose Player Who Goes First Again</p>
-
-<div>
-<Table>
-<tr>
-    <td id="cell_0_0" class="cell" onClick="JavaScript: clickCell(0,0);">&nbsp;</td>
-    <td id="cell_0_1" class="cell" onClick="JavaScript: clickCell(0,1);">&nbsp;</td>
-    <td id="cell_0_2" class="cell" onClick="JavaScript: clickCell(0,2);">&nbsp;</td>
-</tr>
+    
+    <h1>Tic Tac Toe</h1>
+    <button onclick="changeMarkerToX()">X</button>
+    <button onclick="changeMarkerToO()">O</button>
+    <div>
+    <table id="game">
     <tr>
-    <td id="cell_1_0" class="cell" onClick="JavaScript: clickCell(1,0);">&nbsp;</td>
-    <td id="cell_1_1" class="cell" onClick="JavaScript: clickCell(1,1);">&nbsp;</td>
-    <td id="cell_1_2" class="cell" onClick="JavaScript: clickCell(1,2);">&nbsp;</td>
-</tr>
-    <tr>
-    <td id="cell_2_0" class="cell" onClick="JavaScript: clickCell(2,0);">&nbsp;</td>
-    <td id="cell_2_1" class="cell" onClick="JavaScript: clickCell(2,1);">&nbsp;</td>
-    <td id="cell_2_2" class="cell" onClick="JavaScript: clickCell(2,2);">&nbsp;</td>
-</tr>
-</table>
-</div>
-<input type=button onClick="Javascript: reset();" value="Reset">
-<br/><br/>
-
+        <td id="cell1" onclick="placeMark(event)" class="cell"></td>
+        <td id="cell2" onclick="placeMark(event)" class="cell"></td>    
+        <td id="cell3" onclick="placeMark(event)" class="cell"></td>
+        <tr>
+        <td id="cell4" onclick="placeMark(event)" class="cell"></td>    
+        <td id="cell5" onclick="placeMark(event)" class="cell"></td>    
+        <td id="cell6" onclick="placeMark(event)" class="cell"></td>
+        <tr>
+        <td id="cell7" onclick="placeMark(event)" class="cell"></td>
+        <td id="cell8" onclick="placeMark(event)" class="cell"></td>
+        <td id="cell9" onclick="placeMark(event)" class="cell"></td>
+    </tr>
+    </table>
+    </div>
+    <script type="text/javascript" src="./ticTacToe.js"></script>
 </body>
 </html>
