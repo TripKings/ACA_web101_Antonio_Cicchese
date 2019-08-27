@@ -1,21 +1,4 @@
-// $(function(){
-//     let $list = $('ul');
-//     let $newItemForm = $('.list-flex');
-  
-//     $newItemForm.on('submit', function(e) {
-//       e.preventDefault();
-//       let text = $('input[type="text"]').val();
-//       console.log(text)
-//       $list.append(`<li>${text}</li>`);
-//       $('input[type="text"]').val('');
-//     });
-  
-//     $list.on('click', 'li', function() {
-//       let $this = $(this);
-//       $this.remove();
-//     });
-  
-//   });
+
 
 function addText(){
     var text = $("#myInput").val();
@@ -32,4 +15,34 @@ function check() {
 let $this = $(this);
 $this.remove();
     });
+}
+
+
+
+var count = 0;
+
+function cookieClick() {
+  count = count + 1;
+  document.getElementById("numClicks").innerHTML = count;
+}
+
+function eatClick() {
+  if(count >= 10){ 
+    count = count - 10;
+    document.getElementById("numClicks").innerHTML = count;
+}
+}
+
+var myLocation = document.getElementById("my-coordinates")
+
+function getLocation() {
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(displayPosition)
+  } else {
+   myLocation.innerHTML = "Not available"
+  }
+}
+
+function displayPosition(position) {
+  myLocation.innerHTML = "Longitude: " + position.coords.longitude + " Latitude: " + position.coords.latitude
 }

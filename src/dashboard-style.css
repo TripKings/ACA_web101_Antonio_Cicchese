@@ -483,6 +483,18 @@ input:active {
   background-color: #bbb;
 }
 
+.cookie {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .container{
   display: grid;
   grid-template-areas: 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dashboard-style.css">
     <!-- <script type="text/javascript" src="./dashboard.js"></script> -->
 
@@ -132,6 +133,20 @@
               </tr>
             </table>
         </div>
+
+        <div class="cookie">
+            <h1>Cookie Clicker</h1>
+            <img onclick="cookieClick(this)" draggable="false" src="./img/cookie">
+            <h1 onClick="eatClick()">Eat 10 Cookies!!!</h1>
+            <h1>Cookie Counter</h1>
+            <h1 id="numClicks"></h1>
+        </div>
+
+        <div class="myLocation">
+            <button onclick="getLocation()">Get Location!</button>
+            <p id="my-coordinates"></p>
+        </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="../jquery-3.4.1.min.js"></script>
